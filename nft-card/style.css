@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+    --bg-color:#0d192b;
+    --main-color:#14253d;
+    --hover-color:#00fff7;
+}
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Outfit', sans-serif;
+ }
+ body{
+     padding: 2rem;
+     height: 100vh;
+     max-height: 100vh;
+     background-color: var(--bg-color);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ main{
+     background-color: var(--main-color);
+     width: 300px;
+     border-radius: 1rem;
+     
+ }
+.image-container{
+    margin: 18px;
+}
+.image-container img{
+    width: 260px;
+    border-radius: 1rem;
+
+}
+.eye{
+    z-index: 999;
+    opacity: 0;
+}
+
+.description{
+    margin: 0 1rem;
+}
+
+h1 a{
+    color: white;
+    text-decoration: none;
+}
+h1 a:hover{
+    color: var(--hover-color);
+}
+.description > p{
+    margin: 0.5rem 0;
+    color: #ffff;
+    opacity: 0.6;
+    font-weight: 300;
+}
+.items-container{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.items-container p{
+    color: white;
+    opacity: 0.6;
+    font-weight: 300;
+}
+.price{
+    display: flex;
+    gap: 5px;
+}
+.price p{
+    color: var(--hover-color);
+    font-weight: 600;
+    opacity: 1;
+}
+.time{
+    display: flex;
+    gap: 5px;
+}
+hr{
+    margin: 1rem 1rem;
+    opacity: 0.6;
+}
+.avatar{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.avatar img{
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.avatar p{
+    color: grey;
+}
+.avatar a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: var(--hover-color);
+}
+
