@@ -75,7 +75,15 @@ h2 {
   margin-top: 5px;
   margin-right: 3rem;
 }
-
+i[class*="fa-html5"] {
+  color: orangered;
+}
+i[class*="fa-css3-alt"] {
+  color: rgb(0, 136, 255);
+}
+i[class*="fa-js"] {
+  color: yellow;
+}
 @media only screen and (max-width: 700px) {
   main {
     grid-template-columns: 1fr;
